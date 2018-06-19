@@ -1,0 +1,20 @@
+u1      froot        # fileroot for outputs
+0.03    dt           # timestep
+5e6     tmax         # integrate to this time
+200.0    t_print      # output between timesteps
+1       lattice_type # particle lattice 0=rand 1=hcp 2=cubic
+0.52    b_distance   # min interparticle distance
+2.0     mush_fac     # sets max spring length
+2.0e-1  ks           # spring constant
+5.0     gamma_fac    # how much higher is gamma initially? 
+0.1     gamma_all    # spring damping final
+5.0     t_damp       # time to switch damping
+1.0     ratio1       # axis ratio for body b/a
+0.9     ratio2       # second axis ratio   c/a
+0.7     omegaz       # initial body spin
+ 4.0    obliquity    # obliquity degrees
+2       pointmass    #  number of point masses, below each 2 lines per pt mass
+23038  10.0 0.0  0.0  0.0          #  mass,rad,itaua,itaue,itmig   Sun
+500.0  0.0  0.12 0.0  0.0  0.0     #  aa,ee,ii,longnode,argperi,meananom for extended body
+ 6.55  1.0  2e-8 0.0  0.0          #  mass,rad,itaua,itaue,itmig      itau>0 outward  planet (Saturn)
+398.0  0.0  0.0  0.0  0.2  1.0     #  aa,ee,ii,longnode,argperi,meananom
